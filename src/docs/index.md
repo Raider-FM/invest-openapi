@@ -22,27 +22,17 @@ OpenAPI предоставляет доступ к торговле и полу�
 
 В OpenAPI доступны инструменты из базового каталога, не требующие статуса квалифицированного инвестора, за исключением:
 
-* TCSG
-* TRUR
-* TUSD
-* TEUR
-* TECH
-* TMOS
-* TGLD
-* TSPX 
-* TIPO
-* TBIO
-* TSPV
+* TCSG / TCSG
 
 ## Официальные SDK
 
-[Java](https://github.com/TinkoffCreditSystems/invest-openapi-java-sdk)
+[Java](https://github.com/Tinkoff/invest-openapi-java-sdk)
 
-[C#](https://github.com/TinkoffCreditSystems/invest-openapi-csharp-sdk)
+[C#](https://github.com/Tinkoff/invest-openapi-csharp-sdk)
 
-[Go](https://github.com/TinkoffCreditSystems/invest-openapi-go-sdk)
+[Go](https://github.com/Tinkoff/invest-openapi-go-sdk)
 
-[NodeJS](https://github.com/TinkoffCreditSystems/invest-openapi-js-sdk)
+[NodeJS](https://github.com/Tinkoff/invest-openapi-js-sdk)
 
 ## Неофициальные SDK
 

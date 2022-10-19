@@ -1,10 +1,34 @@
 # Тинькофф Инвестиции OpenAPI
 
+
+<br><br>
+
+# Внимание, доступна новая версия [Tinkoff Invest API](https://github.com/Tinkoff/investAPI) 
+## Поддержка текущей версии будет прекращена в 2022 году, рекомендуем переходить на новую версию.
+
+<br>
+
+Основные изменения в [новой версии](https://github.com/Tinkoff/investAPI):
+* Поддержка всех нововведений, которых не было в текущей openAPI: мультисчетов, фьючерсов, стоп-ордеров и т.д.;
+* Поддержка токена для конкретного счета и режима “только для чтения”;
+* Полноценная “песочница” для тестирования стратегий, которая теперь знает о текущих рыночных котировках;
+* Существенно обогащенный список методов и формат возвращаемых данных;
+* Гибкая система разграничения лимитов на запросы;
+* Новый производительный протокол gRPC, совмещающий как единичные запросы, так и стримы;
+* Добавлены стримы с исполнением сделок клиента;
+
+Документация по новой API и контракты доступны по ссылке https://github.com/Tinkoff/investAPI
+
+<br><br>
+
+
+# Об openapi v1 [deprecated]
+
 OpenAPI — HTTP-интерфейс для взаимодействия с торговой платформой [Тинькофф Инвестиции](https://www.tinkoff.ru/invest/).
 
 OpenAPI позволяет вам выставлять лимитные заявки, просматривать информацию по своему портфелю и получать market-data через streaming.
 
-[Документация для разработчиков](https://tinkoffcreditsystems.github.io/invest-openapi/)
+[Документация для разработчиков](https://tinkoff.github.io/invest-openapi/)
 
 # Зачем нужен этот репозиторий?
 
@@ -16,26 +40,20 @@ OpenAPI позволяет вам выставлять лимитные заяв
 
 Если вы встретили неточность или хотели бы что-то дополнить, то мы будем рады принять от вас pull request.
 
-# Мы собираем команду для реализации OpenApi V2
-
-* Java разработчики
-* Golang разработчики
-* Fullstack QA
-* Команда сопровождения и поддержки клиентов
-
-Контакты: al.a.volkov@tinkoff.ru
-
-А так же у нас открыты вакансии не только в команду OpenApi https://www.tinkoff.ru/career/vacancies/invest/
+# Работа в Тинькофф Инвестициях
+ 
+Вы разработчик и есть интерес к финтеху и инвестициям?
+Приходите работать к нам: https://www.tinkoff.ru/career/vacancies/invest/
 
 # Официальные SDK
 
-[Java](https://github.com/TinkoffCreditSystems/invest-openapi-java-sdk)
+[Java](https://github.com/Tinkoff/invest-openapi-java-sdk)
 
-[C#](https://github.com/TinkoffCreditSystems/invest-openapi-csharp-sdk)
+[C#](https://github.com/Tinkoff/invest-openapi-csharp-sdk)
 
-[Go](https://github.com/TinkoffCreditSystems/invest-openapi-go-sdk)
+[Go](https://github.com/Tinkoff/invest-openapi-go-sdk)
 
-[NodeJS](https://github.com/TinkoffCreditSystems/invest-openapi-js-sdk)
+[NodeJS](https://github.com/Tinkoff/invest-openapi-js-sdk)
 
 # Неофициальные SDK
 
